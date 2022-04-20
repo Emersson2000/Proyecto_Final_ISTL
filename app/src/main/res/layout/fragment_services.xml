@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesFragment"
+    android:background="@mipmap/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="0dp"
+        android:foreground="@color/colorBlanco"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:src="@drawable/logogeneral"
+        android:translationY="20dp" />
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="638dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="0dp"
+        android:alwaysDrawnWithCache="true"
+        android:animateLayoutChanges="true"
+        android:animationCache="true"
+        android:fadeScrollbars="true"
+        android:fillViewport="true"
+        android:filterTouchesWhenObscured="true"
+        android:fitsSystemWindows="true"
+        android:focusableInTouchMode="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarDefaultDelayBeforeFade="2000"
+        android:scrollbarStyle="outsideOverlay"
+        android:soundEffectsEnabled="true"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="385dp"
+                android:layout_height="wrap_content"
+                android:text="QUIENES SOMOS"
+                android:textColor="#0C0C0C"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="El objeto del presente Reglamento es establecer la naturaleza y formas en las que se desarrolla la actividad de investigación científica del INSTITUTO SUPERIOR TECNOLÓGICO LOJA, así como regular la organización estructural para alcanzar de manera óptima la consecución de este fin esencial del Instituto."
+                android:textAlignment="viewStart"
+                android:textColor="#0E0E0E"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="381dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20sp"
+                android:text="Capacitaciones virtuales"
+                android:textColor="#050505"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/imgsec3" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="398dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Oferta Académica"
+                android:textColor="#121010"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="1. Tecnología Superior en Procesamiento de Alimentos"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="2. Tecnología Superior en Desarrollo de Software"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="3. Tecnología Superior en Contabilidad"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="4. Tecnología Superior en Mecánica Automotriz"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="5, Tecnología Superior en Electricidad"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="6. Tecnología Superior en Desarrollo Infantil Integral"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="7. Tecnología Superior en Control de Incendios y Operaciones de Rescate"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/contactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="CONTACTOS"
+                android:textColor="#0E0E0E"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Nombre : Gabriela Plaza Psic.Cli"
+                android:textColor="@color/colorCeleste"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Dirección: Calle Granada, vía a Turunuma, frente a Cafrilosa"
+                android:textColor="@color/colorCeleste"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Horario: Martes a Jueves 08h00 a 13H00 de 15H00 a18H00"
+                android:textColor="@color/colorCeleste"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Teléfono: 0982466520"
+                android:textColor="@color/colorCeleste"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Correo: bienestar@tecnologicoloja.edu.ec"
+                android:textColor="@color/colorCeleste"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
